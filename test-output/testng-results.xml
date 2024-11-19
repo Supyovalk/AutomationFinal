@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="41" passed="41" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-18T17:58:58 IST" name="Suite" finished-at="2024-11-18T18:02:33 IST" duration-ms="215017">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T17:58:58 IST" name="Test" finished-at="2024-11-18T18:02:33 IST" duration-ms="215017">
+      <class name="tutorialNinjaPOM.tests.AccountTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:10 IST" name="setUp" finished-at="2024-11-18T18:01:21 IST" duration-ms="10136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_CheckwishList()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:21 IST" name="tc01_CheckwishList" finished-at="2024-11-18T18:01:29 IST" duration-ms="8483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_CheckwishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:29 IST" name="tearDown" finished-at="2024-11-18T18:01:31 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.AccountTests -->
+      <class name="tutorialNinjaPOM.tests.URLTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:16 IST" name="setUp" finished-at="2024-11-18T18:02:25 IST" duration-ms="9064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_defaultRoutes()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:25 IST" name="tc01_defaultRoutes" finished-at="2024-11-18T18:02:26 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_defaultRoutes -->
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:26 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:27 IST" duration-ms="1419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=account]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The page you requested cannot be found!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_invaildRoutes -->
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:27 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:28 IST" duration-ms="1104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=product]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The page you requested cannot be found!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_invaildRoutes -->
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:28 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:29 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=account/invaild]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The page you requested cannot be found!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_invaildRoutes -->
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:29 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:31 IST" duration-ms="1408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=product/invaild]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The page you requested cannot be found!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_invaildRoutes -->
+        <test-method signature="tc03_SearchEmpty()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:31 IST" name="tc03_SearchEmpty" finished-at="2024-11-18T18:02:31 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_SearchEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:31 IST" name="tearDown" finished-at="2024-11-18T18:02:33 IST" duration-ms="1542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.URLTests -->
+      <class name="tutorialNinjaPOM.tests.CartPageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:58:58 IST" name="setUp" finished-at="2024-11-18T17:59:24 IST" duration-ms="25995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_ItemsEcho()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:24 IST" name="tc01_ItemsEcho" finished-at="2024-11-18T17:59:25 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_ItemsEcho -->
+        <test-method signature="tc02_ItemsTotalPrice()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:25 IST" name="tc02_ItemsTotalPrice" finished-at="2024-11-18T17:59:27 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_ItemsTotalPrice -->
+        <test-method signature="tc03_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:27 IST" name="tc03_ItemsModifyCount" finished-at="2024-11-18T17:59:34 IST" duration-ms="7387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_ItemsModifyCount -->
+        <test-method signature="tc04_ItemsCheckTotalSumShipless()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:34 IST" name="tc04_ItemsCheckTotalSumShipless" finished-at="2024-11-18T17:59:34 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_ItemsCheckTotalSumShipless -->
+        <test-method signature="tc05_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:34 IST" name="tc05_ItemsModifyCount" finished-at="2024-11-18T17:59:40 IST" duration-ms="5539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_ItemsModifyCount -->
+        <test-method signature="tc06_VoucherInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:40 IST" name="tc06_VoucherInvaild" finished-at="2024-11-18T17:59:44 IST" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_VoucherInvaild -->
+        <test-method signature="tc07_CouponInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:44 IST" name="tc07_CouponInvaild" finished-at="2024-11-18T17:59:47 IST" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_CouponInvaild -->
+        <test-method signature="tc08_ShippingMethodUnchecked()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:47 IST" name="tc08_ShippingMethodUnchecked" finished-at="2024-11-18T17:59:55 IST" duration-ms="7399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_ShippingMethodUnchecked -->
+        <test-method signature="tc09_ShippingCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:55 IST" name="tc09_ShippingCheck" finished-at="2024-11-18T18:00:04 IST" duration-ms="9581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_ShippingCheck -->
+        <test-method signature="tc99_ContiuneShopping()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T18:00:04 IST" name="tc99_ContiuneShopping" finished-at="2024-11-18T18:00:06 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc99_ContiuneShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T18:00:06 IST" name="tearDown" finished-at="2024-11-18T18:00:12 IST" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.CartPageTests -->
+      <class name="tutorialNinjaPOM.tests.SearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:12 IST" name="setUp" finished-at="2024-11-18T18:00:22 IST" duration-ms="10020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_emptySearch()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:22 IST" name="tc01_emptySearch" finished-at="2024-11-18T18:00:23 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_emptySearch -->
+        <test-method signature="tc02_subCategoryButtonDisableEnable()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:23 IST" name="tc02_subCategoryButtonDisableEnable" finished-at="2024-11-18T18:00:24 IST" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_subCategoryButtonDisableEnable -->
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:24 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:27 IST" duration-ms="2350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_SearchFilterNonDesc -->
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:27 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:28 IST" duration-ms="1575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_SearchFilterNonDesc -->
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:28 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:30 IST" duration-ms="1559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_SearchFilterNonDesc -->
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:30 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:32 IST" duration-ms="2156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ MaC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_SearchFilterNonDesc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:32 IST" name="tearDown" finished-at="2024-11-18T18:00:34 IST" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.SearchTests -->
+      <class name="tutorialNinjaPOM.tests.RegisterLoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:31 IST" name="setUp" finished-at="2024-11-18T18:01:38 IST" duration-ms="6942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_UnloggedInasseablePages(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:38 IST" name="tc01_UnloggedInasseablePages" data-provider="getUnloggedInassablePages" finished-at="2024-11-18T18:01:38 IST" duration-ms="622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=account/wishlist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=account/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_UnloggedInasseablePages -->
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:40 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:42 IST" duration-ms="2453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_InvaildLogin -->
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:42 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:43 IST" duration-ms="1346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Supyovalk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_InvaildLogin -->
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:43 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:45 IST" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NonMatchingEmail@gmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_InvaildLogin -->
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:45 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:46 IST" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ SupyovalkTest1@gmail.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_InvaildLogin -->
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:48 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:52 IST" duration-ms="3544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ShortPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Supyovalktestb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0555555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Password must be between 4 and 20 characters!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_InvaildRegister -->
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:52 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:54 IST" duration-ms="2484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UnmatchingConfirmpasswordLength]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Supyovalktestb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0555555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Password confirmation does not match password!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_InvaildRegister -->
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:54 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:57 IST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UnmatchingConfirmpasswordContent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Supyovalktestb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0555555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Password confirmation does not match password!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_InvaildRegister -->
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:57 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:59 IST" duration-ms="2815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NoPoliacy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Supyovalktestb@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0555555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Warning: You must agree to the Privacy Policy!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_InvaildRegister -->
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:59 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:02:02 IST" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EmailPreregister]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SupyovalkTest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0555555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Warning: E-Mail Address is already registered!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_InvaildRegister -->
+        <test-method signature="tc04_VaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:03 IST" name="tc04_VaildLogin" data-provider="getVaildLogins" finished-at="2024-11-18T18:02:05 IST" duration-ms="2290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SupyovalkTest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_VaildLogin -->
+        <test-method signature="tc05_LoginURLRedirectedWhenLoggedState()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:05 IST" name="tc05_LoginURLRedirectedWhenLoggedState" finished-at="2024-11-18T18:02:06 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_LoginURLRedirectedWhenLoggedState -->
+        <test-method signature="tc06_AddItemUnlogged()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:06 IST" name="tc06_AddItemUnlogged" finished-at="2024-11-18T18:02:10 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_AddItemUnlogged -->
+        <test-method signature="tc07_VaildRegister()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:10 IST" name="tc07_VaildRegister" finished-at="2024-11-18T18:02:14 IST" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_VaildRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:14 IST" name="tearDown" finished-at="2024-11-18T18:02:16 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.RegisterLoginTests -->
+      <class name="tutorialNinjaPOM.tests.CartBurgerTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:34 IST" name="setUp" finished-at="2024-11-18T18:00:45 IST" duration-ms="11209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc01_correctLinkCart()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:45 IST" name="tc01_correctLinkCart" finished-at="2024-11-18T18:00:46 IST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_correctLinkCart -->
+        <test-method signature="tc02_correctLinkCheckout()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:46 IST" name="tc02_correctLinkCheckout" finished-at="2024-11-18T18:00:48 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_correctLinkCheckout -->
+        <test-method signature="tc03_removeLastItem()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:48 IST" name="tc03_removeLastItem" finished-at="2024-11-18T18:00:49 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_removeLastItem -->
+        <test-method signature="tc04_BurgerAddSimpleEchoCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:49 IST" name="tc04_BurgerAddSimpleEchoCheck" finished-at="2024-11-18T18:01:00 IST" duration-ms="11248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_BurgerAddSimpleEchoCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:01:00 IST" name="tearDown" finished-at="2024-11-18T18:01:10 IST" duration-ms="9957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialNinjaPOM.tests.CartBurgerTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
