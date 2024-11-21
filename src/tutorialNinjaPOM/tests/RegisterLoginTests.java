@@ -21,9 +21,6 @@ public class RegisterLoginTests extends BaseDriverTest {
 	@BeforeClass
 	public void setUp(){
 		super.setUp();
-	    homePage=new HomePage(driver);
-		loginPage=new LoginPage(driver);
-		registerPage=new RegisterPage(driver);
 		
 	    homePage.urlSessionRestart();	    
 	}

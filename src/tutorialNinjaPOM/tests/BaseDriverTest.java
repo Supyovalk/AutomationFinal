@@ -34,6 +34,16 @@ public class BaseDriverTest {
 	public void setUp(){
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
+		
+	    homePage=new HomePage(driver);
+		loginPage=new LoginPage(driver);
+		errorPage=new ErrorPage(driver);
+		registerPage=new RegisterPage(driver);
+		searchPage=new SearchPage(driver);
+		accountPage=new AccountPage(driver);
+		cartPage=new CartPage(driver);
+		addressEntryPage=new AccountAddressEntryPage(driver);
+		addressModifyPage=new AccountAddressModifyPage(driver);
 	}
 	
 	@AfterClass

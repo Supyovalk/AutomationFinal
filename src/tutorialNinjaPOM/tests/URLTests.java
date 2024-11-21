@@ -5,20 +5,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import tutorialNinjaPOM.pages.ErrorPage;
-import tutorialNinjaPOM.pages.HomePage;
-import tutorialNinjaPOM.pages.LoginPage;
-import tutorialNinjaPOM.pages.SearchPage;
-
 public class URLTests extends BaseDriverTest {
 
 	@BeforeClass
 	public void setUp(){
 		super.setUp();
-	    homePage=new HomePage(driver);
-		loginPage=new LoginPage(driver);
-		errorPage=new ErrorPage(driver);
-		searchPage=new SearchPage(driver);
 		homePage.urlSessionRestart();
 	    homePage.toggleAccountDropdown();
 	    homePage.pressAccountDropdownLogin();

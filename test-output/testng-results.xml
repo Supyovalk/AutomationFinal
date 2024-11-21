@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="41" passed="41" failed="0" skipped="0">
+<testng-results ignored="0" total="41" passed="39" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-18T17:58:58 IST" name="Suite" finished-at="2024-11-18T18:02:33 IST" duration-ms="215017">
+  <suite started-at="2024-11-21T17:48:57 IST" name="Suite" finished-at="2024-11-21T17:52:13 IST" duration-ms="195851">
     <groups>
     </groups>
-    <test started-at="2024-11-18T17:58:58 IST" name="Test" finished-at="2024-11-18T18:02:33 IST" duration-ms="215017">
+    <test started-at="2024-11-21T17:48:57 IST" name="Test" finished-at="2024-11-21T17:52:13 IST" duration-ms="195851">
       <class name="tutorialNinjaPOM.tests.AccountTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:10 IST" name="setUp" finished-at="2024-11-18T18:01:21 IST" duration-ms="10136" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-21T17:50:47 IST" name="setUp" finished-at="2024-11-21T17:50:58 IST" duration-ms="10424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_CheckwishList()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:21 IST" name="tc01_CheckwishList" finished-at="2024-11-18T18:01:29 IST" duration-ms="8483" status="PASS">
+        <test-method signature="tc01_CheckwishList()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-21T17:50:58 IST" name="tc01_CheckwishList" finished-at="2024-11-21T17:51:07 IST" duration-ms="9615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_CheckwishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-18T18:01:29 IST" name="tearDown" finished-at="2024-11-18T18:01:31 IST" duration-ms="1924" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.AccountTests@66d3eec0]" started-at="2024-11-21T17:51:07 IST" name="tearDown" finished-at="2024-11-21T17:51:10 IST" duration-ms="2124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialNinjaPOM.tests.AccountTests -->
       <class name="tutorialNinjaPOM.tests.URLTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:16 IST" name="setUp" finished-at="2024-11-18T18:02:25 IST" duration-ms="9064" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:51:56 IST" name="setUp" finished-at="2024-11-21T17:52:06 IST" duration-ms="10126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_defaultRoutes()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:25 IST" name="tc01_defaultRoutes" finished-at="2024-11-18T18:02:26 IST" duration-ms="568" status="PASS">
+        <test-method signature="tc01_defaultRoutes()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:06 IST" name="tc01_defaultRoutes" finished-at="2024-11-21T17:52:06 IST" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_defaultRoutes -->
-        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:26 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:27 IST" duration-ms="1419" status="PASS">
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:06 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-21T17:52:07 IST" duration-ms="1260" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_invaildRoutes -->
-        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:27 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:28 IST" duration-ms="1104" status="PASS">
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:07 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-21T17:52:09 IST" duration-ms="1191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_invaildRoutes -->
-        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:28 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:29 IST" duration-ms="1283" status="PASS">
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:09 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-21T17:52:10 IST" duration-ms="1155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_invaildRoutes -->
-        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:29 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-18T18:02:31 IST" duration-ms="1408" status="PASS">
+        <test-method signature="tc02_invaildRoutes(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:10 IST" name="tc02_invaildRoutes" data-provider="getInvaildRoutes" finished-at="2024-11-21T17:52:11 IST" duration-ms="1183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,79 +93,217 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_invaildRoutes -->
-        <test-method signature="tc03_SearchEmpty()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:31 IST" name="tc03_SearchEmpty" finished-at="2024-11-18T18:02:31 IST" duration-ms="481" status="PASS">
+        <test-method signature="tc03_SearchEmpty()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:11 IST" name="tc03_SearchEmpty" finished-at="2024-11-21T17:52:11 IST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_SearchEmpty -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-18T18:02:31 IST" name="tearDown" finished-at="2024-11-18T18:02:33 IST" duration-ms="1542" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.URLTests@1af2d44a]" started-at="2024-11-21T17:52:11 IST" name="tearDown" finished-at="2024-11-21T17:52:13 IST" duration-ms="1588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialNinjaPOM.tests.URLTests -->
       <class name="tutorialNinjaPOM.tests.CartPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:58:58 IST" name="setUp" finished-at="2024-11-18T17:59:24 IST" duration-ms="25995" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:48:57 IST" name="setUp" finished-at="2024-11-21T17:49:22 IST" duration-ms="24646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_ItemsEcho()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:24 IST" name="tc01_ItemsEcho" finished-at="2024-11-18T17:59:25 IST" duration-ms="595" status="PASS">
+        <test-method signature="tc01_ItemsEcho()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:22 IST" name="tc01_ItemsEcho" finished-at="2024-11-21T17:49:23 IST" duration-ms="569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_ItemsEcho -->
-        <test-method signature="tc02_ItemsTotalPrice()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:25 IST" name="tc02_ItemsTotalPrice" finished-at="2024-11-18T17:59:27 IST" duration-ms="2016" status="PASS">
+        <test-method signature="tc02_ItemsTotalPrice()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:23 IST" name="tc02_ItemsTotalPrice" finished-at="2024-11-21T17:49:24 IST" duration-ms="1649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_ItemsTotalPrice -->
-        <test-method signature="tc03_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:27 IST" name="tc03_ItemsModifyCount" finished-at="2024-11-18T17:59:34 IST" duration-ms="7387" status="PASS">
+        <test-method signature="tc03_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:24 IST" name="tc03_ItemsModifyCount" finished-at="2024-11-21T17:49:29 IST" duration-ms="4679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_ItemsModifyCount -->
-        <test-method signature="tc04_ItemsCheckTotalSumShipless()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:34 IST" name="tc04_ItemsCheckTotalSumShipless" finished-at="2024-11-18T17:59:34 IST" duration-ms="300" status="PASS">
+        <test-method signature="tc04_ItemsCheckTotalSumShipless()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:29 IST" name="tc04_ItemsCheckTotalSumShipless" finished-at="2024-11-21T17:49:29 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04_ItemsCheckTotalSumShipless -->
-        <test-method signature="tc05_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:34 IST" name="tc05_ItemsModifyCount" finished-at="2024-11-18T17:59:40 IST" duration-ms="5539" status="PASS">
+        <test-method signature="tc05_ItemsModifyCount()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:29 IST" name="tc05_ItemsModifyCount" finished-at="2024-11-21T17:49:33 IST" duration-ms="4395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc05_ItemsModifyCount -->
-        <test-method signature="tc06_VoucherInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:40 IST" name="tc06_VoucherInvaild" finished-at="2024-11-18T17:59:44 IST" duration-ms="4363" status="PASS">
+        <test-method signature="tc06_VoucherInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:33 IST" name="tc06_VoucherInvaild" finished-at="2024-11-21T17:49:37 IST" duration-ms="3803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc06_VoucherInvaild -->
-        <test-method signature="tc07_CouponInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:44 IST" name="tc07_CouponInvaild" finished-at="2024-11-18T17:59:47 IST" duration-ms="2940" status="PASS">
+        <test-method signature="tc07_CouponInvaild()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:37 IST" name="tc07_CouponInvaild" finished-at="2024-11-21T17:49:40 IST" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc07_CouponInvaild -->
-        <test-method signature="tc08_ShippingMethodUnchecked()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:47 IST" name="tc08_ShippingMethodUnchecked" finished-at="2024-11-18T17:59:55 IST" duration-ms="7399" status="PASS">
+        <test-method signature="tc08_ShippingMethodUnchecked()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:40 IST" name="tc08_ShippingMethodUnchecked" finished-at="2024-11-21T17:49:41 IST" duration-ms="1308" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="#collapse-shipping" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" style="">...</a> is not clickable at point (307, 625). Other element would receive the click: <h2>...</h2>
+  (Session info: MicrosoftEdge=131.0.2903.51)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [21afea6b6244902c5483c26051ccef54, clickElement {id=f.DD4729864CF2C65F8FB8F44FB1904019.d.3E8494758083EE577E8F002A57F07996.e.11829}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57398}, msedge: {msedgedriverVersion: 131.0.2903.51 (e8c8535333b9..., userDataDir: C:\Users\YUVALK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[EdgeDriver: MicrosoftEdge on windows (21afea6b6244902c5483c26051ccef54)] -> css selector: #accordion]] -> css selector: h4.panel-title>a]
+Session ID: 21afea6b6244902c5483c26051ccef54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#collapse-shipping" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" style="">...</a> is not clickable at point (307, 625). Other element would receive the click: <h2>...</h2>
+  (Session info: MicrosoftEdge=131.0.2903.51)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [21afea6b6244902c5483c26051ccef54, clickElement {id=f.DD4729864CF2C65F8FB8F44FB1904019.d.3E8494758083EE577E8F002A57F07996.e.11829}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57398}, msedge: {msedgedriverVersion: 131.0.2903.51 (e8c8535333b9..., userDataDir: C:\Users\YUVALK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[EdgeDriver: MicrosoftEdge on windows (21afea6b6244902c5483c26051ccef54)] -> css selector: #accordion]] -> css selector: h4.panel-title>a]
+Session ID: 21afea6b6244902c5483c26051ccef54
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at tutorialNinjaPOM.pages.BasePage.click(BasePage.java:75)
+at tutorialNinjaPOM.pages.BasePage.click(BasePage.java:69)
+at tutorialNinjaPOM.pages.CartPage.pressCollapseHeadings(CartPage.java:193)
+at tutorialNinjaPOM.pages.CartPage.pressCollapseShipping(CartPage.java:187)
+at tutorialNinjaPOM.pages.CartPage.fillShippingValues(CartPage.java:221)
+at tutorialNinjaPOM.pages.CartPage.fillShippingValues(CartPage.java:218)
+at tutorialNinjaPOM.tests.CartPageTests.tc08_ShippingMethodUnchecked(CartPageTests.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc08_ShippingMethodUnchecked -->
-        <test-method signature="tc09_ShippingCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T17:59:55 IST" name="tc09_ShippingCheck" finished-at="2024-11-18T18:00:04 IST" duration-ms="9581" status="PASS">
+        <test-method signature="tc09_ShippingCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:41 IST" name="tc09_ShippingCheck" finished-at="2024-11-21T17:49:42 IST" duration-ms="162" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: MicrosoftEdge=131.0.2903.51)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [21afea6b6244902c5483c26051ccef54, clickElement {id=f.DD4729864CF2C65F8FB8F44FB1904019.d.3E8494758083EE577E8F002A57F07996.e.11952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57398}, msedge: {msedgedriverVersion: 131.0.2903.51 (e8c8535333b9..., userDataDir: C:\Users\YUVALK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[EdgeDriver: MicrosoftEdge on windows (21afea6b6244902c5483c26051ccef54)] -> css selector: #input-country]] -> xpath: .//option[normalize-space(.) = "Israel"]]
+Session ID: 21afea6b6244902c5483c26051ccef54]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":11,"value":"Element is not currently visible and may not be manipulated"}
+  (Session info: MicrosoftEdge=131.0.2903.51)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [21afea6b6244902c5483c26051ccef54, clickElement {id=f.DD4729864CF2C65F8FB8F44FB1904019.d.3E8494758083EE577E8F002A57F07996.e.11952}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57398}, msedge: {msedgedriverVersion: 131.0.2903.51 (e8c8535333b9..., userDataDir: C:\Users\YUVALK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57398/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[EdgeDriver: MicrosoftEdge on windows (21afea6b6244902c5483c26051ccef54)] -> css selector: #input-country]] -> xpath: .//option[normalize-space(.) = "Israel"]]
+Session ID: 21afea6b6244902c5483c26051ccef54
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:315)
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:119)
+at tutorialNinjaPOM.pages.BasePage.selectChoiceByText(BasePage.java:61)
+at tutorialNinjaPOM.pages.CartPage.fillShippingValues(CartPage.java:222)
+at tutorialNinjaPOM.tests.CartPageTests.tc09_ShippingCheck(CartPageTests.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc09_ShippingCheck -->
-        <test-method signature="tc99_ContiuneShopping()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T18:00:04 IST" name="tc99_ContiuneShopping" finished-at="2024-11-18T18:00:06 IST" duration-ms="1423" status="PASS">
+        <test-method signature="tc99_ContiuneShopping()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:42 IST" name="tc99_ContiuneShopping" finished-at="2024-11-21T17:49:43 IST" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc99_ContiuneShopping -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-18T18:00:06 IST" name="tearDown" finished-at="2024-11-18T18:00:12 IST" duration-ms="6660" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartPageTests@6cd28fa7]" started-at="2024-11-21T17:49:43 IST" name="tearDown" finished-at="2024-11-21T17:49:50 IST" duration-ms="6731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialNinjaPOM.tests.CartPageTests -->
       <class name="tutorialNinjaPOM.tests.SearchTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:12 IST" name="setUp" finished-at="2024-11-18T18:00:22 IST" duration-ms="10020" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:49:50 IST" name="setUp" finished-at="2024-11-21T17:50:01 IST" duration-ms="11006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_emptySearch()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:22 IST" name="tc01_emptySearch" finished-at="2024-11-18T18:00:23 IST" duration-ms="826" status="PASS">
+        <test-method signature="tc01_emptySearch()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:01 IST" name="tc01_emptySearch" finished-at="2024-11-21T17:50:02 IST" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_emptySearch -->
-        <test-method signature="tc02_subCategoryButtonDisableEnable()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:23 IST" name="tc02_subCategoryButtonDisableEnable" finished-at="2024-11-18T18:00:24 IST" duration-ms="1301" status="PASS">
+        <test-method signature="tc02_subCategoryButtonDisableEnable()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:02 IST" name="tc02_subCategoryButtonDisableEnable" finished-at="2024-11-21T17:50:04 IST" duration-ms="1681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_subCategoryButtonDisableEnable -->
-        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:24 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:27 IST" duration-ms="2350" status="PASS">
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:04 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-21T17:50:06 IST" duration-ms="2654" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,7 +314,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_SearchFilterNonDesc -->
-        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:27 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:28 IST" duration-ms="1575" status="PASS">
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:06 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-21T17:50:07 IST" duration-ms="1236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,7 +325,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_SearchFilterNonDesc -->
-        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:28 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:30 IST" duration-ms="1559" status="PASS">
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:07 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-21T17:50:09 IST" duration-ms="1661" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,7 +336,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_SearchFilterNonDesc -->
-        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:30 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-18T18:00:32 IST" duration-ms="2156" status="PASS">
+        <test-method signature="tc03_SearchFilterNonDesc(java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:09 IST" name="tc03_SearchFilterNonDesc" data-provider="getSearchFilterNonDesc" finished-at="2024-11-21T17:50:10 IST" duration-ms="1090" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,17 +347,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_SearchFilterNonDesc -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-18T18:00:32 IST" name="tearDown" finished-at="2024-11-18T18:00:34 IST" duration-ms="1569" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.SearchTests@614ca7df]" started-at="2024-11-21T17:50:10 IST" name="tearDown" finished-at="2024-11-21T17:50:12 IST" duration-ms="1638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialNinjaPOM.tests.SearchTests -->
       <class name="tutorialNinjaPOM.tests.RegisterLoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:31 IST" name="setUp" finished-at="2024-11-18T18:01:38 IST" duration-ms="6942" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:10 IST" name="setUp" finished-at="2024-11-21T17:51:16 IST" duration-ms="6729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_UnloggedInasseablePages(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:38 IST" name="tc01_UnloggedInasseablePages" data-provider="getUnloggedInassablePages" finished-at="2024-11-18T18:01:38 IST" duration-ms="622" status="PASS">
+        <test-method signature="tc01_UnloggedInasseablePages(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:16 IST" name="tc01_UnloggedInasseablePages" data-provider="getUnloggedInassablePages" finished-at="2024-11-21T17:51:17 IST" duration-ms="807" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_UnloggedInasseablePages -->
-        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:40 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:42 IST" duration-ms="2453" status="PASS">
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:18 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-21T17:51:20 IST" duration-ms="1645" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +389,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_InvaildLogin -->
-        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:42 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:43 IST" duration-ms="1346" status="PASS">
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:20 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-21T17:51:21 IST" duration-ms="1483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,7 +405,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_InvaildLogin -->
-        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:43 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:45 IST" duration-ms="1178" status="PASS">
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:21 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-21T17:51:23 IST" duration-ms="1574" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,7 +421,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_InvaildLogin -->
-        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:45 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-18T18:01:46 IST" duration-ms="1332" status="PASS">
+        <test-method signature="tc02_InvaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:23 IST" name="tc02_InvaildLogin" data-provider="getInvaildLogins" finished-at="2024-11-21T17:51:24 IST" duration-ms="1558" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,7 +437,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_InvaildLogin -->
-        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:48 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:52 IST" duration-ms="3544" status="PASS">
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:26 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-21T17:51:30 IST" duration-ms="3555" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +488,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_InvaildRegister -->
-        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:52 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:54 IST" duration-ms="2484" status="PASS">
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:30 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-21T17:51:33 IST" duration-ms="2869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,7 +539,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_InvaildRegister -->
-        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:54 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:57 IST" duration-ms="2096" status="PASS">
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:33 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-21T17:51:36 IST" duration-ms="3063" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,7 +590,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_InvaildRegister -->
-        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:57 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:01:59 IST" duration-ms="2815" status="PASS">
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:36 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-21T17:51:39 IST" duration-ms="3609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -503,7 +641,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_InvaildRegister -->
-        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:01:59 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-18T18:02:02 IST" duration-ms="2500" status="PASS">
+        <test-method signature="tc03_InvaildRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, boolean, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:39 IST" name="tc03_InvaildRegister" data-provider="getInvalidRegisters" finished-at="2024-11-21T17:51:42 IST" duration-ms="2946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -554,7 +692,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_InvaildRegister -->
-        <test-method signature="tc04_VaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:03 IST" name="tc04_VaildLogin" data-provider="getVaildLogins" finished-at="2024-11-18T18:02:05 IST" duration-ms="2290" status="PASS">
+        <test-method signature="tc04_VaildLogin(java.lang.String, java.lang.String)[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:43 IST" name="tc04_VaildLogin" data-provider="getVaildLogins" finished-at="2024-11-21T17:51:45 IST" duration-ms="1957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -570,45 +708,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04_VaildLogin -->
-        <test-method signature="tc05_LoginURLRedirectedWhenLoggedState()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:05 IST" name="tc05_LoginURLRedirectedWhenLoggedState" finished-at="2024-11-18T18:02:06 IST" duration-ms="970" status="PASS">
+        <test-method signature="tc05_LoginURLRedirectedWhenLoggedState()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:45 IST" name="tc05_LoginURLRedirectedWhenLoggedState" finished-at="2024-11-21T17:51:46 IST" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc05_LoginURLRedirectedWhenLoggedState -->
-        <test-method signature="tc06_AddItemUnlogged()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:06 IST" name="tc06_AddItemUnlogged" finished-at="2024-11-18T18:02:10 IST" duration-ms="3281" status="PASS">
+        <test-method signature="tc06_AddItemUnlogged()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:46 IST" name="tc06_AddItemUnlogged" finished-at="2024-11-21T17:51:49 IST" duration-ms="3397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc06_AddItemUnlogged -->
-        <test-method signature="tc07_VaildRegister()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:10 IST" name="tc07_VaildRegister" finished-at="2024-11-18T18:02:14 IST" duration-ms="4728" status="PASS">
+        <test-method signature="tc07_VaildRegister()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:49 IST" name="tc07_VaildRegister" finished-at="2024-11-21T17:51:54 IST" duration-ms="4857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc07_VaildRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-18T18:02:14 IST" name="tearDown" finished-at="2024-11-18T18:02:16 IST" duration-ms="1599" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.RegisterLoginTests@1e04fa0a]" started-at="2024-11-21T17:51:54 IST" name="tearDown" finished-at="2024-11-21T17:51:56 IST" duration-ms="1574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tutorialNinjaPOM.tests.RegisterLoginTests -->
       <class name="tutorialNinjaPOM.tests.CartBurgerTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:34 IST" name="setUp" finished-at="2024-11-18T18:00:45 IST" duration-ms="11209" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:12 IST" name="setUp" finished-at="2024-11-21T17:50:24 IST" duration-ms="12249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc01_correctLinkCart()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:45 IST" name="tc01_correctLinkCart" finished-at="2024-11-18T18:00:46 IST" duration-ms="1650" status="PASS">
+        <test-method signature="tc01_correctLinkCart()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:24 IST" name="tc01_correctLinkCart" finished-at="2024-11-21T17:50:26 IST" duration-ms="1753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_correctLinkCart -->
-        <test-method signature="tc02_correctLinkCheckout()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:46 IST" name="tc02_correctLinkCheckout" finished-at="2024-11-18T18:00:48 IST" duration-ms="1937" status="PASS">
+        <test-method signature="tc02_correctLinkCheckout()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:26 IST" name="tc02_correctLinkCheckout" finished-at="2024-11-21T17:50:28 IST" duration-ms="2225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_correctLinkCheckout -->
-        <test-method signature="tc03_removeLastItem()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:48 IST" name="tc03_removeLastItem" finished-at="2024-11-18T18:00:49 IST" duration-ms="752" status="PASS">
+        <test-method signature="tc03_removeLastItem()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:28 IST" name="tc03_removeLastItem" finished-at="2024-11-21T17:50:29 IST" duration-ms="486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_removeLastItem -->
-        <test-method signature="tc04_BurgerAddSimpleEchoCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:00:49 IST" name="tc04_BurgerAddSimpleEchoCheck" finished-at="2024-11-18T18:01:00 IST" duration-ms="11248" status="PASS">
+        <test-method signature="tc04_BurgerAddSimpleEchoCheck()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:29 IST" name="tc04_BurgerAddSimpleEchoCheck" finished-at="2024-11-21T17:50:39 IST" duration-ms="10188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04_BurgerAddSimpleEchoCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-18T18:01:00 IST" name="tearDown" finished-at="2024-11-18T18:01:10 IST" duration-ms="9957" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialNinjaPOM.tests.CartBurgerTests@4738a206]" started-at="2024-11-21T17:50:39 IST" name="tearDown" finished-at="2024-11-21T17:50:47 IST" duration-ms="8741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

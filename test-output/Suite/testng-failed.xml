@@ -11,13 +11,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- tutorialNinjaPOM.tests.CartPageTests -->
-      <class name="tutorialNinjaPOM.tests.RegisterLoginTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tc03_InvaildRegister" invocation-numbers="0 1 2 3 4"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- tutorialNinjaPOM.tests.RegisterLoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

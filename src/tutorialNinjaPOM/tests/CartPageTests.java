@@ -5,19 +5,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import tutorialNinjaPOM.pages.CartPage;
-import tutorialNinjaPOM.pages.HomePage;
-import tutorialNinjaPOM.pages.LoginPage;
-
 public class CartPageTests extends BaseDriverTest {
 	String[] HomesetUpItems= {"MacBook","iPhone","iPod Shuffle","Nikon D300","MacBook Air"};
 	@Override
 	@BeforeClass
 	public void setUp(){
 		super.setUp();
-	    homePage=new HomePage(driver);
-		loginPage=new LoginPage(driver);
-		cartPage=new CartPage(driver);
 		
 	    homePage.urlSessionRestart();
 	    homePage.toggleAccountDropdown();

@@ -5,19 +5,12 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import tutorialNinjaPOM.pages.HomePage;
-import tutorialNinjaPOM.pages.LoginPage;
-import tutorialNinjaPOM.pages.SearchPage;
-
 public class CartBurgerTests extends BaseDriverTest {
 	static final String goldilock_product="iPod Touch"; //The only Product in the website in stock that can be easily added to cart (no direct to product page)
 	@Override
 	@BeforeClass
 	public void setUp(){
 		super.setUp();
-	    homePage=new HomePage(driver);
-		loginPage=new LoginPage(driver);
-		searchPage=new SearchPage(driver);
 		
 	    homePage.urlSessionRestart();
 	    homePage.toggleAccountDropdown();
